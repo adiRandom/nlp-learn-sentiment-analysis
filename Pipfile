@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+jupyter = "*"
+numpy = "*"
+torch = "*"
+jax = "*"
+num2words = "*"
+pandas = "*"
+spacy = "*"
+nltk = "*"
+scikit-learn = "*"
+tensorflow-macos = "*"
+emoji = "*"
+keras = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
